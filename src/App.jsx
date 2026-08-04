@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import TouchHearts from './components/ui/TouchHearts'
 import useGameStore from './store/useGameStore'
 
@@ -84,7 +84,7 @@ const Toast = () => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* Global touch hearts on every screen */}
       <TouchHearts />
 
@@ -134,7 +134,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

@@ -9,10 +9,7 @@ import LotusPetals from '../components/particles/LotusPetals';
 import Fireflies from '../components/particles/Fireflies';
 import GlowButton from '../components/ui/GlowButton';
 import useGameStore from '../store/useGameStore';
-import lav1Img from '../assets/lav1.jpg';
-import lav2Img from '../assets/lav2.jpg';
-import lav3Img from '../assets/lav3.jpg';
-import venkateswaraImg from '../assets/venkateswara.jpg';
+import { lav1Img, lav2Img, lav3Img, venkateswaraImg } from '../assets/images';
 
 // Quote 1: Venkateswara Blessing Quote
 const QUOTE_BLESSING = `రాధాకృష్ణుల పవిత్ర ప్రేమలా, సీతారాముల అచంచల నమ్మకంతో ఏ అడ్డంకినైనా దాటుకుంటూ చివరిదాకా నీడలా నీకు తోడుగా ఉంటాను... మన ఈ అపురూప బంధాన్ని ఏడుకొండల శ్రీ వెంకటేశ్వర స్వామి ఎల్లప్పుడూ చల్లగా దీవించాలి! 🙏✨`;
