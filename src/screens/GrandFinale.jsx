@@ -9,6 +9,10 @@ import LotusPetals from '../components/particles/LotusPetals';
 import Fireflies from '../components/particles/Fireflies';
 import GlowButton from '../components/ui/GlowButton';
 import useGameStore from '../store/useGameStore';
+import lav1Img from '../assets/lav1.jpg';
+import lav2Img from '../assets/lav2.jpg';
+import lav3Img from '../assets/lav3.jpg';
+import venkateswaraImg from '../assets/venkateswara.jpg';
 
 // Quote 1: Venkateswara Blessing Quote
 const QUOTE_BLESSING = `రాధాకృష్ణుల పవిత్ర ప్రేమలా, సీతారాముల అచంచల నమ్మకంతో ఏ అడ్డంకినైనా దాటుకుంటూ చివరిదాకా నీడలా నీకు తోడుగా ఉంటాను... మన ఈ అపురూప బంధాన్ని ఏడుకొండల శ్రీ వెంకటేశ్వర స్వామి ఎల్లప్పుడూ చల్లగా దీవించాలి! 🙏✨`;
@@ -203,7 +207,7 @@ export default function GrandFinale() {
             
             {/* Real Tirumala Venkateswara Swamy Illuminated Photo */}
             <div style={{ position: 'relative', width: '100%', maxWidth: '340px', borderRadius: '20px', overflow: 'hidden', border: '3px solid #FFD700', boxShadow: '0 0 35px rgba(255,215,0,0.7)', marginBottom: '20px' }}>
-              <img src="./venkateswara.jpg" alt="Tirumala Seven Hills Venkateswara Swamy" style={{ width: '100%', height: '210px', objectFit: 'cover' }} />
+              <img src={venkateswaraImg} alt="Tirumala Seven Hills Venkateswara Swamy" style={{ width: '100%', height: '210px', objectFit: 'cover' }} />
               <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, background: 'linear-gradient(180deg, transparent, rgba(0,0,0,0.9))', padding: '12px', textAlign: 'center' }}>
                 <span style={{ color: '#FFD700', fontSize: '13px', fontWeight: 'bold', letterSpacing: '0.08em', fontFamily: "'Cormorant Garamond', serif" }}>
                   ✨ ఏడుకొండల శ్రీ వెంకటేశ్వర స్వామి దివ్య సమక్షంలో ✨
@@ -222,17 +226,17 @@ export default function GrandFinale() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', alignItems: 'center', marginBottom: '30px', width: '100%', maxWidth: '340px' }}>
               {/* Photo 1 */}
               <div style={{ borderRadius: '16px', overflow: 'hidden', border: '3px solid #FFD700', boxShadow: '0 0 25px rgba(255,215,0,0.5)', width: '280px', height: '360px' }}>
-                <img src="./lav1.jpg" alt="Lavanya Heart" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={lav1Img} alt="Lavanya Heart" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
 
               {/* Photo 2 */}
               <div style={{ borderRadius: '16px', overflow: 'hidden', border: '3px solid #FFD700', boxShadow: '0 0 25px rgba(255,215,0,0.5)', width: '280px', height: '360px' }}>
-                <img src="./lav2.jpg" alt="Lavanya Pose" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={lav2Img} alt="Lavanya Pose" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
 
               {/* Photo 3 - Couple Photo Highlight */}
               <div style={{ borderRadius: '20px', overflow: 'hidden', border: '4px solid #FFD700', boxShadow: '0 0 35px rgba(255,215,0,0.8)', width: '300px', height: '380px' }}>
-                <img src="./lav3.jpg" alt="Vamsi & Lavanya" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={lav3Img} alt="Vamsi & Lavanya" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
 
