@@ -109,7 +109,7 @@ const PhotoJigsawPuzzle = ({ onSolved }) => {
               onClick={() => handleTileClick(currentIdx)}
               whileTap={{ scale: 0.95 }}
               style={{
-                backgroundImage: 'url(/lav2.jpg)',
+                backgroundImage: 'url(./lav2.jpg)',
                 backgroundSize: '300% 300%',
                 backgroundPosition: `${bgPositionX} ${bgPositionY}`,
                 borderRadius: '8px',
@@ -279,7 +279,7 @@ export default function Month12_Library() {
                   📸 PHOTO 1: LAVANYA'S HEART POSE
                 </div>
                 <div style={{ position: 'relative', borderRadius: '20px', overflow: 'hidden', border: '3px solid #FFD700', boxShadow: '0 0 30px rgba(255,215,0,0.5)', marginBottom: '20px', width: '260px', height: '350px' }}>
-                  <img src="/lav1.jpg" alt="Lavanya Heart" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="./lav1.jpg" alt="Lavanya Heart" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
                 <GlowButton onClick={() => setPlayPhase('puzzleStep2')} color="#FFD700">
                   🧩 Solve Photo 2 Puzzle →
@@ -307,12 +307,12 @@ export default function Month12_Library() {
 
                 {/* Couple Photo (lav3.jpg) */}
                 <div style={{ position: 'relative', borderRadius: '20px', overflow: 'hidden', border: '4px solid #FFD700', boxShadow: '0 0 40px rgba(255,215,0,0.8)', marginBottom: '20px', width: '280px', height: '350px' }}>
-                  <img src="/lav3.jpg" alt="Vamsi Krishna and Lavanya" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src="./lav3.jpg" alt="Vamsi Krishna and Lavanya" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
 
                 {/* Venkateswara Swamy Illuminated Photo */}
                 <div style={{ position: 'relative', width: '280px', borderRadius: '16px', overflow: 'hidden', border: '3px solid #FFD700', boxShadow: '0 0 30px rgba(255,215,0,0.6)', marginBottom: '16px' }}>
-                  <img src="/venkateswara.jpg" alt="Tirumala Seven Hills Venkateswara Swamy" style={{ width: '100%', height: '180px', objectFit: 'cover' }} />
+                  <img src="./venkateswara.jpg" alt="Tirumala Seven Hills Venkateswara Swamy" style={{ width: '100%', height: '180px', objectFit: 'cover' }} />
                 </div>
 
                 {/* Quote 1: Blessing Quote */}
@@ -345,7 +345,7 @@ export default function Month12_Library() {
               >
                 {/* Couple Photo Header */}
                 <div style={{ borderRadius: '12px', overflow: 'hidden', border: '3px solid rgba(255,215,0,0.6)', marginBottom: '20px', boxShadow: '0 0 20px rgba(255,215,0,0.4)' }}>
-                  <img src="/lav3.jpg" alt="Vamsi & Lavanya" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
+                  <img src="./lav3.jpg" alt="Vamsi & Lavanya" style={{ width: '100%', height: '220px', objectFit: 'cover' }} />
                 </div>
 
                 <div style={{ marginBottom: '24px', whiteSpace: 'pre-wrap', fontFamily: "'Dancing Script', cursive", color: '#FFD700', fontSize: '20px', lineHeight: '1.6' }}>
